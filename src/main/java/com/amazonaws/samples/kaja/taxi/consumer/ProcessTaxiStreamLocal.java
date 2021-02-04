@@ -45,7 +45,7 @@ public class ProcessTaxiStreamLocal {
   private static final Logger LOG = LoggerFactory.getLogger(ProcessTaxiStreamLocal.class);
 
   private static final String DEFAULT_STREAM_NAME = "streaming-analytics-workshop";
-  private static final String DEFAULT_REGION_NAME = Regions.getCurrentRegion()==null ? "eu-west-1" : Regions.getCurrentRegion().getName();
+  private static final String DEFAULT_REGION_NAME = Regions.getCurrentRegion()==null ? "ap-northeast-1" : Regions.getCurrentRegion().getName();
 
 
   public static void main(String[] args) throws Exception {
