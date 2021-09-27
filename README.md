@@ -28,7 +28,6 @@ https://«Elasticsearch endpoint»/_plugin/kibana/app/kibana#/dashboard/nyc-tlc-
 
 The prepared Kibana dashboard contains a heatmap and a line graph. The heatmap visualizes locations where taxis are currently requested and it shows that the highest demand for taxis is Manhattan. Moreover, the airports JFK and LaGuardia are also spots on the map where substantially more rides are requested compared to their direct neighborhoods. The line graph visualizes the average trip duration to these two airports and you can see how it is steadily increasing throughout the day until it abruptly drops in the evening.
 
-![Kibana Dashboard Screen Shot](misc/kibana-dashboard-screenshot.png?raw=true)
 
 Note that the Elasticsearch cluster is configured to accept connections from the IP address range specified as a parameter of the CloudFormation template. Please note that for production workloads it’s much more desirable to further tighten the security of your Elasticsearch domain, for instance, by using Amazon Cognito for Kibana access control.
 
